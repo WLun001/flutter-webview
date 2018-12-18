@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     // Add a listener to on url changed
     _onUrlChanged = flutterWebviewPlugin.onUrlChanged.listen((String url) {
-      if (url == 'https://flutter.io/docs/get-started/install') {
+      if (url == 'https://github.com/flutter') {
         flutterWebviewPlugin.close();
       }
       if (mounted) {
